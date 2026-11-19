@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "GALA.ai",
+    "slug": "gala-ai-mobile",
+    "version": "1.0.0",
+    "scheme": "gala-ai",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo1.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/logo1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#13357B"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo1.png",
+        "backgroundColor": "#13357B"
+      }
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker",
+      "expo-web-browser",
+      "expo-font"
+    ]
+  }
+}
