@@ -1,0 +1,12 @@
+{
+  "installCommand": "rm -rf node_modules && npm install",
+  "buildCommand": "node ./node_modules/expo/bin/cli export -p web",
+  "outputDirectory": "dist",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/"
+    }
+  ]
+}
