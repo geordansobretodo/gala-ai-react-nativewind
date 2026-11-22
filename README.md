@@ -17,7 +17,7 @@ running the native target returns Expo's JSON manifest; it is not the web app.
 Set your Laravel API URL via `EXPO_PUBLIC_API_URL` (for example in `.env`):
 
 ```env
-EXPO_PUBLIC_API_URL=http://10.0.2.2:8000/api
+EXPO_PUBLIC_API_URL=https://onipluma.alwaysdata.net/api
 EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID=
 EXPO_PUBLIC_GOOGLE_IOS_CLIENT_ID=
 EXPO_PUBLIC_GOOGLE_ANDROID_CLIENT_ID=
